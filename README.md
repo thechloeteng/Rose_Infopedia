@@ -8,7 +8,7 @@
 
 **Animation Libraries Used:** GreenSock (GSAP)
 
-**Website Link:** <a href="https://rose-infopedia.tchloe.com/" target="_blank">https://rose-infopedia.tchloe.com/</a>
+**Website Link:** <a href="https://rose-infopedia.tchloe.com/">https://rose-infopedia.tchloe.com/</a>
 
 >**Note:** This was a school project that I worked on alone.
 
