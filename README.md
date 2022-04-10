@@ -1,4 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/97730901/162627575-b9a5df1f-320b-40a0-9218-d60a94e10576.svg" style="width: 40px; height: 40px;"> Rose Infopedia <img src="https://user-images.githubusercontent.com/97730901/162627575-b9a5df1f-320b-40a0-9218-d60a94e10576.svg" style="width: 40px; height: 40px;">
+# <img src="https://user-images.githubusercontent.com/97730901/162627575-b9a5df1f-320b-40a0-9218-d60a94e10576.svg" alt="" style="width: 40px; height: 40px;"> Rose Infopedia <img src="https://user-images.githubusercontent.com/97730901/162627575-b9a5df1f-320b-40a0-9218-d60a94e10576.svg" alt="" style="width: 40px; height: 40px;">
 
 **Project Role:** UI/UX Designer and Frontend Developer
 
