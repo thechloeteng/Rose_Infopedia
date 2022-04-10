@@ -1,0 +1,862 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/********** Global Styling ************/
+#all {
+    position: relative;
+    width: 400px;
+    height: 600px;
+}
+
+p {
+    line-height: 1.25;
+}
+
+/*********** Menu Page 1 **************/
+
+#menu-wrapper {
+    width: 400px;
+    height: 600px;
+    background-color: #F9CFDB;
+}
+
+.menu-button-wrapper {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    width: 60px;
+    float: right;
+}
+
+.menu-button-wrapper:hover {
+    opacity: 0.65;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.rose-logo > p {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#menu-leaf-falling img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+
+#menu-leaf-falling img:hover {
+    cursor: pointer;
+} 
+
+.ripple {
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    top: 72%;
+    left: 10%;
+    opacity: 0;
+}
+
+.flowers1 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 71.5%;
+    left: 0%;
+    opacity: 0;
+}
+
+.flowers2 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 65%;
+    left: 15%;
+    opacity: 0;
+}
+
+.flowers3 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 61.5%;
+    left: 35%;
+    opacity: 0;
+}
+
+.flowers4 {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 65%;
+    left: 53%;
+    opacity: 0;
+}
+
+.flowers5 {
+    position: absolute;
+    width: 140px;
+    height: 170px;
+    top: 72.5%;
+    left: 64.9%;
+    opacity: 0;
+}
+
+/******** Inside Menu Page 2 **********/
+
+#inside-menu-wrapper {
+    width: 400px;
+    height: 600px;
+    background-color: #F9CFDB;
+}
+
+#inside-menu-bgs {
+    position: relative;
+    top: 17%;
+}
+
+.middle-bg {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #E0F1FC;
+}
+
+#top-rose-bg {
+    position: relative;
+    float: right;
+    top: 0.5%;
+    right: 0.5%;
+}
+
+.top-rose {
+    position: absolute;
+    width: 150px;
+    right: 10%;
+}
+
+#bottom-rose-bg {
+    position: relative;
+    top: 77%;
+    right: 0.5%;
+}
+
+.bottom-rose {
+    position: absolute;
+    left: 2px;
+    width: 150px;
+}
+
+.inside-menu-close-button-wrapper {
+    position: absolute;
+    bottom: -115px;
+    right: 43%;
+    width: 45px;
+}
+
+.inside-menu-close-button-wrapper:hover {
+    opacity: 0.65;
+    transition: 0.3s;
+}
+
+#inside-menu-buttons-wrapper {
+    position: relative;
+}
+
+#inside-menu-buttons {
+    position: absolute;
+    margin: 200px 80px;
+}
+
+#inside-menu-buttons > button {
+    position: relative;
+    width: 250px;
+    height: 60px;
+    top: 50%;
+    left: 20%;
+    background-color: white;
+    color: #000000;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+#inside-menu-buttons > button:hover {
+    background-color: #B01F24;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#inside-menu-buttons > .button-1 {
+    position: absolute;
+    top: -60%;
+}
+
+#inside-menu-buttons > .button-2 {
+    position: absolute;
+    top: 405%;
+}
+
+#inside-menu-buttons > .button-3 {
+    position: absolute;
+    top: 860%;
+}
+
+#bottom-rose-bg .inside-menu-close-button:hover {
+    cursor: pointer;
+}
+
+/***** History Of Roses Page 3 ********/
+
+#history-of-roses-wrapper {
+    width: 400px;
+    height: 600px;
+    background-color: #F9CFDB;
+}
+
+#history-bg-wrapper {
+    position: relative;
+}
+
+.history-top-bg {
+    position: absolute;
+    top: 0px;
+    background-color: #F9CFDB;
+    width: 400px;
+    height: 90px;
+}
+
+.history-menu-button-wrapper {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    width: 45px;
+    float: left;
+}
+
+.history-menu-button-wrapper:hover {
+    opacity: 0.65;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.back-button {
+    position: relative;
+    width: 90px;
+    height: 35px;
+    top: 20%;
+    left: 72%;
+    background-color: white;
+    color: #000000;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.back-button:hover {
+    background-color: #B01F24;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.history-middle-bg {
+    position: absolute;
+    top: 70px;
+    background-color: #E0F1FC;
+    width: 400px;
+    height: 250px;
+    /* height: 320px; */
+}
+
+#history-book-cover-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+}
+
+.history-book-cover {
+    position: absolute;
+    width: 100px;
+    top: 120px;
+    opacity: 0;
+}
+
+#history-book-open-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+}
+
+.history-book-open {
+    position: absolute;
+    top: 140px;
+    width: 160px;
+    opacity: 0;
+}
+
+#history-of-roses-info-wrapper {
+    opacity: 0;
+}
+
+#history-of-roses-info-bg {
+    position: relative;
+    top: -8px;
+}
+
+.history-bottom-bg {
+    position: absolute;
+    top: 310px;
+    width: 350px;
+    height: 230px;
+    margin: 20px 25px;
+    background-color: white;
+}
+
+.history-info-para-block > p {
+    color: #343434;
+    padding: 20px 20px;
+    font-size: 17px;
+}
+
+/***** Symbolism Of Roses Page 4 ******/
+
+#symbolism-of-roses-wrapper {
+    width: 400px;
+    height: 600px;
+    background-color: #F9CFDB;
+}
+
+#symbolism-bg-wrapper {
+    position: relative;
+}
+
+.symbolism-top-bg {
+    position: absolute;
+    top: 0px;
+    background-color: #F9CFDB;
+    width: 400px;
+    height: 90px;
+}
+
+.symbolism-menu-button-wrapper {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    width: 45px;
+    float: left;
+}
+
+.symbolism-menu-button-wrapper:hover {
+    opacity: 0.65;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.back-button-2 {
+    position: relative;
+    width: 90px;
+    height: 35px;
+    top: 20%;
+    left: 72%;
+    background-color: white;
+    color: #000000;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.back-button-2:hover {
+    background-color: #B01F24;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.symbolism-middle-bg {
+    position: absolute;
+    top: 70px;
+    background-color: #E0F1FC;
+    width: 400px;
+    height: 250px;
+}
+
+.symbolism-middle-bg > p {
+    position: absolute;
+    top: 2.2%;
+    left: 7.8%;
+    color: #5b5a5a;
+    padding: 20px 20px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* #symbolism-girl-wrapper {
+    display: inline-block;
+    position: absolute;
+}
+
+.symbolism-girl {
+    position: absolute;
+    width: 65px;
+    transform: rotate(270deg);
+} */
+
+#symbolism-speech-bubble {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    top: 34%;
+    left: 3.7%;
+    background-color: white;
+    color: #676767;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 13px;
+    opacity: 0;
+}
+
+#symbolism-rose-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}
+
+.symbolism-rose {
+    position: absolute;
+    top: 160px;
+    width: 100px;
+}
+
+.symbolism-rose:hover {
+    cursor: pointer;
+}
+
+#symbolism-grass-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 8%;
+}
+
+.symbolism-grass {
+    position: absolute;
+    width: 185px;
+    top: 240px;
+}
+
+.symbolism-grass-2 {
+    position: absolute;
+    width: 185px;
+    top: 240px;
+    left: 121px;
+}
+
+#symbolism-hand-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 70%;
+    opacity: 0;
+}
+
+.symbolism-hand {
+    position: absolute;
+    width: 40px;
+    top: 205px;
+    transform: rotate(315deg);
+}
+
+#symbolism-rose-seed-wrapper {
+    display: inline-block;
+    position: absolute;
+    left: 70%;
+}
+
+.symbolism-rose-seed-1 {
+    position: absolute;
+    width: 23px;
+    left: -160px;
+    top: 205px;
+    opacity: 0;
+}
+
+.symbolism-rose-seed-2 {
+    position: absolute;
+    width: 23px;
+    left: -75px;
+    top: 125px;
+    opacity: 0;
+}
+
+.symbolism-rose-seed-3 {
+    position: absolute;
+    width: 23px;
+    left: 0px;
+    top: 205px;
+    opacity: 0;
+}
+
+#symbolism-of-roses-info-wrapper {
+    position: absolute;
+    width: 23px;
+    left: 0px;
+    top: 25px;
+    opacity: 0;
+}
+
+#symbolism-of-roses-info-bg {
+    position: relative;
+    top: -8px;
+}
+
+.symbolism-bottom-bg {
+    position: absolute;
+    top: 310px;
+    width: 350px;
+    height: 230px;
+    margin: 20px 25px;
+    background-color: white;
+}
+
+.symbolism-info-para-block > p {
+    color: #343434;
+    padding: 20px 20px;
+    font-size: 17px;
+}
+
+/* 3 Amazing Facts About Roses Page 5 */
+
+#amazing-facts-of-roses-wrapper {
+    width: 400px;
+    height: 600px;
+    background-color: #F9CFDB;
+}
+
+#amazing-facts-bg-wrapper {
+    position: relative;
+}
+
+.amazing-facts-top-bg {
+    position: absolute;
+    top: 0px;
+    background-color: #F9CFDB;
+    width: 400px;
+    height: 90px;
+}
+
+.amazing-facts-menu-button-wrapper {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    width: 45px;
+    float: left;
+}
+
+.amazing-facts-menu-button-wrapper:hover {
+    opacity: 0.65;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.back-button-3 {
+    position: relative;
+    width: 90px;
+    height: 35px;
+    top: 20%;
+    left: 72%;
+    background-color: white;
+    color: #000000;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.back-button-3:hover {
+    background-color: #B01F24;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.amazing-facts-middle-bg {
+    position: absolute;
+    top: 70px;
+    background-color: #000000;
+    width: 400px;
+    height: 250px;
+}
+
+#amazing-facts-rose-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}
+
+.amazing-facts-rose {
+    position: absolute;
+    top: 150px;
+    width: 100px;
+}
+
+#amazing-facts-moon-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 8%;
+}
+
+.amazing-facts-moon {
+    position: absolute;
+    width: 40px;
+    top: 75px;
+}
+
+#amazing-facts-speech-bubble-1 {
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    top: 34%;
+    left: 10%;
+    background-color: white;
+    color: #676767;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 13px;
+    opacity: 0;
+}
+
+#amazing-facts-speech-bubble-2 {
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    top: 18%;
+    left: 32%;
+    background-color: white;
+    color: #676767;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 13px;
+    opacity: 0;
+}
+
+#amazing-facts-speech-bubble-3 {
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    top: 34%;
+    left: 80%;
+    background-color: white;
+    color: #676767;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 13px;
+    opacity: 0;
+}
+
+#amazing-facts-grass-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 8%;
+}
+
+.amazing-facts-grass {
+    position: absolute;
+    width: 185px;
+    top: 240px;
+}
+
+.amazing-facts-grass-2 {
+    position: absolute;
+    width: 185px;
+    top: 240px;
+    left: 121px;
+}
+
+/* #amazing-facts-stars-wrapper {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+}
+
+.amazing-facts-stars {
+    position: absolute;
+    width: 130px;
+    top: 75px;
+} */
+
+#amazing-facts-shooting-star-wrapper {
+    position: relative;
+    left: 70%;
+}
+
+.amazing-facts-shooting-star-1 {
+    position: absolute;
+    width: 125px;
+    top: 60px;
+    transform: rotate(13deg);
+}
+
+.amazing-facts-shooting-star-2 {
+    position: absolute;
+    width: 125px;
+    left: 30px;
+    top: 60px;
+    transform: rotate(13deg);
+}
+
+.amazing-facts-shooting-star-3 {
+    position: absolute;
+    width: 125px;
+    top: 60px;
+    transform: rotate(13deg);
+}
+
+#amazing-facts-off-lightbulb-wrapper {
+    position: relative;
+}
+
+.amazing-facts-off-lightbulb-1 {
+    position: absolute;
+    left: 71%;
+    width: 25px;
+    top: 224px;
+    transform: rotate(320deg);
+}
+
+.amazing-facts-off-lightbulb-2 {
+    position: absolute;
+    left: 50%;
+    width: 25px;
+    top: 130px;
+    transform: rotate(320deg);
+}
+
+.amazing-facts-off-lightbulb-3 {
+    position: absolute;
+    left: 30%;
+    width: 25px;
+    top: 224px;
+    transform: rotate(320deg);
+}
+
+.amazing-facts-off-lightbulb-1,
+.amazing-facts-off-lightbulb-2,
+.amazing-facts-off-lightbulb-3 {
+    cursor: pointer;
+}
+
+/***************  ***************/
+
+#amazing-facts-on-lightbulb-wrapper {
+    position: relative;
+}
+
+.amazing-facts-on-lightbulb-1 {
+    position: absolute;
+    left: 71%;
+    width: 25px;
+    top: 190px;
+    transform: rotate(320deg);
+    opacity: 0;
+}
+
+.amazing-facts-on-lightbulb-2 {
+    position: absolute;
+    left: 50%;
+    width: 25px;
+    top: 95px;
+    transform: rotate(320deg);
+    opacity: 0;
+}
+
+.amazing-facts-on-lightbulb-3 {
+    position: absolute;
+    left: 30%;
+    width: 25px;
+    top: 190px;
+    transform: rotate(320deg);
+    opacity: 0;
+}
+
+#amazing-facts-info-bg {
+    position: relative;
+    top: -35px;
+}
+
+#amazing-facts-info-para-block-1 > p {
+    padding: 26px 20px;
+    color: #343434;
+    font-size: 17px;
+}
+
+#amazing-facts-info-para-block-2 > p {
+    color: #343434;
+    padding: 15px 20px;
+    font-size: 17px;
+}
+
+#amazing-facts-info-para-block-3 > p {
+    color: #343434;
+    padding: 16px 20px;
+    font-size: 17px;
+}
+
+#amazing-facts-info-para-block-1 {
+    position: absolute;
+    top: 330px;
+    width: 350px;
+    height: 70px;
+    margin: 20px 25px;
+    background-color: white;
+    opacity: 0;
+}
+
+#amazing-facts-info-para-block-2 {
+    position: absolute;
+    top: 330px;
+    width: 350px;
+    height: 70px;
+    margin: 110px 25px;
+    background-color: white;
+    opacity: 0;
+}
+
+#amazing-facts-info-para-block-3 {
+    position: absolute;
+    top: 330px;
+    width: 350px;
+    height: 70px;
+    margin: 200px 25px;
+    background-color: white;
+    opacity: 0;
+}
