@@ -1,12 +1,16 @@
 # :rose: Rose Infopedia :rose:
 
-Frontend Languages Used: HTML, CSS and JavaScript
+**Project Role:** UI/UX Designer and Frontend Developer
 
-Frontend Libraries Used: jQuery
+**Frontend Languages Used:** HTML, CSS and JavaScript
 
-Animation Libraries Used: GreenSock (GSAP)
+**Frontend Libraries Used:** jQuery
 
-Project Website: https://rose-infopedia.tchloe.com/
+**Animation Libraries Used:** GreenSock (GSAP)
+
+**Website Link:** <a href="https://rose-infopedia.tchloe.com/" target="_blank">https://rose-infopedia.tchloe.com/</a>
+
+>**Note:** This was a school project that I worked on alone.
 
 ---
 
@@ -16,13 +20,13 @@ Project Website: https://rose-infopedia.tchloe.com/
 
 An interactive web app that functions as an e-learning tool for female students who are also teenagers. With Rose Infopedia, you will be able to unravel the layers of history behind Roses, what it symbolises, and discover 3 amazing facts about it, as a bonus!
 
-### Below are some screenshots of the project:
+## **Project Demo**
 
-![Image of Rose Infopedia]()
+---
 
-![Image of Rose Infopedia]()
+**Desktop Preview:**
 
-![Image of Rose Infopedia]()
+![Demo Video of Rose Infopedia]()
 
 ## **TODO**
 
