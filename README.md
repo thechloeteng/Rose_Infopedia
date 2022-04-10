@@ -12,7 +12,7 @@
 
 >**Note:** This was a school project that I worked on alone.
 
----
+***
 
 ## **So, what is Rose Infopedia?**
 
@@ -27,3 +27,5 @@ An interactive web app that functions as an e-learning tool for female students 
 ## **TODO**
 
 - Refactor current code
+
+***
