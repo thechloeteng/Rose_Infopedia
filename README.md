@@ -22,7 +22,7 @@ An interactive web app that functions as an e-learning tool for female students 
 
 **Desktop Preview:**
 
-![Demo Video of Rose Infopedia]()
+https://user-images.githubusercontent.com/97730901/162626646-70fb016c-207f-4a6e-b9d4-e833193f1f3f.mp4
 
 ## **TODO**
 
